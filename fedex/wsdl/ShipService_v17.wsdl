@@ -1297,6 +1297,9 @@
           <xs:enumeration value="RMA_ASSOCIATION"/>
           <xs:enumeration value="SHIPMENT_INTEGRITY"/>
           <xs:enumeration value="STORE_NUMBER"/>
+          <xs:enumeration value="RETURNED_PACKAGE"/>
+          <xs:enumeration value="REPLACE_FORWARD"/>
+          <xs:enumeration value="REPLACE_REVERSE"/>
         </xs:restriction>
       </xs:simpleType>
       <xs:complexType name="CustomerSpecifiedLabelDetail">
